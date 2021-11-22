@@ -1,0 +1,54 @@
+
+> nginx-obs-automatic-low-bitrate-switching@1.9.5 start /home/sam/noalbs
+> node ./lib/app
+
+
+    ███╗   ██╗ ██████╗  █████╗ ██╗     ██████╗ ███████╗
+    ████╗  ██║██╔═══██╗██╔══██╗██║     ██╔══██╗██╔════╝
+    ██╔██╗ ██║██║   ██║███████║██║     ██████╔╝███████╗
+    ██║╚██╗██║██║   ██║██╔══██║██║     ██╔══██╗╚════██║
+    ██║ ╚████║╚██████╔╝██║  ██║███████╗██████╔╝███████║
+    ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝ ╚══════╝ v1.9.5
+
+[9/14/2021] [6:24:03 PM] [OBS] › ℹ  info      Connecting & authenticating
+[9/14/2021] [6:24:03 PM] [CHT] › ℹ  info      Connecting to twitch
+[9/14/2021] [6:24:04 PM] [CHT] › ✔  success   Successfully Connected
+[9/14/2021] [6:24:04 PM] [CHT] › ✔  success   Authenticating and joining channel #ohheyitscortex
+
+> nginx-obs-automatic-low-bitrate-switching@1.9.5 start /home/sam/noalbs
+> node ./lib/app
+
+
+    ███╗   ██╗ ██████╗  █████╗ ██╗     ██████╗ ███████╗
+    ████╗  ██║██╔═══██╗██╔══██╗██║     ██╔══██╗██╔════╝
+    ██╔██╗ ██║██║   ██║███████║██║     ██████╔╝███████╗
+    ██║╚██╗██║██║   ██║██╔══██║██║     ██╔══██╗╚════██║
+    ██║ ╚████║╚██████╔╝██║  ██║███████╗██████╔╝███████║
+    ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝ ╚══════╝ v1.9.5
+
+[9/14/2021] [6:24:19 PM] [OBS] › ℹ  info      Connecting & authenticating
+[9/14/2021] [6:24:19 PM] [CHT] › ℹ  info      Connecting to twitch
+[9/14/2021] [6:24:20 PM] [CHT] › ✔  success   Successfully Connected
+[9/14/2021] [6:24:20 PM] [CHT] › ✔  success   Authenticating and joining channel #ohheyitscortex
+[9/14/2021] [6:26:30 PM] [OBS] › ✖  error     Can't connect or lost connnection
+[9/14/2021] [6:26:30 PM] [OBS] › ℹ  info      Trying to reconnect in 5 seconds
+[9/14/2021] [6:28:45 PM] [OBS] › ✖  error     Can't connect or lost connnection
+[9/14/2021] [6:28:45 PM] [OBS] › ℹ  info      Trying to reconnect in 5 seconds
+[9/14/2021] [6:31:00 PM] [OBS] › ✖  error     Can't connect or lost connnection
+[9/14/2021] [6:31:00 PM] [OBS] › ℹ  info      Trying to reconnect in 5 seconds
+[9/14/2021] [6:33:15 PM] [OBS] › ✖  error     Can't connect or lost connnection
+[9/14/2021] [6:33:15 PM] [OBS] › ℹ  info      Trying to reconnect in 5 seconds
+[9/14/2021] [6:35:30 PM] [OBS] › ✖  error     Can't connect or lost connnection
+[9/14/2021] [6:35:30 PM] [OBS] › ℹ  info      Trying to reconnect in 5 seconds
+[9/14/2021] [6:37:45 PM] [OBS] › ✖  error     Can't connect or lost connnection
+[9/14/2021] [6:37:45 PM] [OBS] › ℹ  info      Trying to reconnect in 5 seconds
+[9/14/2021] [6:40:01 PM] [OBS] › ✖  error     Can't connect or lost connnection
+[9/14/2021] [6:40:01 PM] [OBS] › ℹ  info      Trying to reconnect in 5 seconds
+[9/14/2021] [6:42:16 PM] [OBS] › ✖  error     Can't connect or lost connnection
+[9/14/2021] [6:42:16 PM] [OBS] › ℹ  info      Trying to reconnect in 5 seconds
+[9/14/2021] [6:44:31 PM] [OBS] › ✖  error     Can't connect or lost connnection
+[9/14/2021] [6:44:31 PM] [OBS] › ℹ  info      Trying to reconnect in 5 seconds
+[9/14/2021] [6:46:46 PM] [OBS] › ✖  error     Can't connect or lost connnection
+[9/14/2021] [6:46:46 PM] [OBS] › ℹ  info      Trying to reconnect in 5 seconds
+[9/14/2021] [6:49:01 PM] [OBS] › ✖  error     Can't connect or lost connnection
+[9/14/2021] [6:49:01 PM] [OBS] › ℹ  info      Trying to reconnect in 5 seconds
