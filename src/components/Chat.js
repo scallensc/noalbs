@@ -394,7 +394,7 @@ class Chat {
   }
 
   restart() {
-    exec('systemctl restart nimble', (error, stdout, stderr) => {
+    exec('sudo systemctl restart nimble', (error, stdout, stderr) => {
       if (error) {
         console.log(`error: ${error.message}`);
         this.say(format(this.locale.restart.error));
