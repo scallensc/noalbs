@@ -245,6 +245,8 @@ class ObsSwitcher extends EventEmitter {
           const srtdata = await srtresponse.json();
           const rtmpresponse = await fetch(stats + '/manage/rtmp_status');
           const rtmpdata = await rtmpresponse.json();
+          // console.log(rtmpdata[0]?.streams);
+          // console.log(rtmpdata);
           const srtreceiver = srtdata.SrtReceivers.filter((receiver) =>
             receiver.id.includes(id)
           );
@@ -268,15 +270,18 @@ class ObsSwitcher extends EventEmitter {
             },
             rtmp: {
               live:
-                !isEmpty(rtmpdata) && rtmpdata[0].app === 'live/mobile'
+                (!isEmpty(rtmpdata) && rtmpdata[0].app === 'live/mobile') ||
+                rtmpdata[0].app === 'live'
                   ? true
                   : false,
               rtt:
-                !isEmpty(rtmpdata) && rtmpdata[0].app === 'live/mobile'
+                (!isEmpty(rtmpdata) && rtmpdata[0].app === 'live/mobile') ||
+                rtmpdata[0].app === 'live'
                   ? 5
                   : null,
               bandwidth:
-                !isEmpty(rtmpdata) && rtmpdata[0].app === 'live/mobile'
+                (!isEmpty(rtmpdata) && rtmpdata[0].app === 'live/mobile') ||
+                rtmpdata[0].app === 'live'
                   ? Math.round(rtmpdata[0].streams[0].bandwidth / 1024)
                   : null,
             },
@@ -294,7 +299,9 @@ class ObsSwitcher extends EventEmitter {
             this.rtt = null;
           }
         } catch (e) {
-          log.error('[NIMBLE] Error fetching stats: ' + e);
+          this.bitrate = null;
+          this.rtt = null;
+          // log.error('[NIMBLE] Error fetching stats: ' + e);
         }
         break;
       case 'srt-live-server':
